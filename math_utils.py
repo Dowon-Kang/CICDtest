@@ -1,6 +1,6 @@
-import numpy
+def add(a, b):
+    return a + b
 
-def power(n):
-    return n**n
 
-    
+def power(base, exp=2):
+    return base**exp
